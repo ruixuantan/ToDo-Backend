@@ -1,0 +1,29 @@
+{
+  "name": "todo_remastered",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-react": "^7.8.3",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.2.2",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.5.3",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "axios": "^0.19.2",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "create-react-app": "^3.3.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-datetime": "^2.16.3",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "turbolinks": "^5.2.0",
+    "typescript": "^3.7.5"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.1"
+  }
+}
