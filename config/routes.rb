@@ -17,6 +17,5 @@ Rails.application.routes.draw do
   get "tasks/new", to: "hello_world#home";
   get "tags/", to: "hello_world#home";
 
-
   root "hello_world#home"
 end
