@@ -8,11 +8,12 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :tasks, only: [:index, :create, :show, :update, :destroy]
-      resources :tags, only: [:index, :create, :show, :destroy]
+      resources :tags, only: [:index, :create, :show, :update, :destroy]
     end
   end
 
-  get "tasks/:id/edit", to: "hello_world#home";
+  get "tasks/create", to: "hello_world#home";
+  get "tasks/:id/update", to: "hello_world#home";
   get "tasks/:id", to: "hello_world#home";
   get "tasks/new", to: "hello_world#home";
   get "tags/", to: "hello_world#home";
