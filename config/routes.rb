@@ -12,10 +12,10 @@ Rails.application.routes.draw do
     end
   end
 
-  get "tasks/create", to: "hello_world#home";
-  get "tasks/:id/update", to: "hello_world#home";
-  get "tasks/:id", to: "hello_world#home";
-  get "tags/create", to: "hello_world#home";
+  # get "tasks/create", to: "hello_world#home";
+  # get "tasks/:id/update", to: "hello_world#home";
+  # get "tasks/:id", to: "hello_world#home";
+  # get "tags/create", to: "hello_world#home";
 
   root "hello_world#home"
 end
